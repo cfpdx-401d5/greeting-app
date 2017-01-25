@@ -1,5 +1,5 @@
 {
-  "name": "greetApp",
+  "name": "greetapp",
   "version": "0.0.1",
   "description": "App thats greets users.",
   "main": "greet.js",
