@@ -9,6 +9,13 @@ describe('greeting app', function() {
 
     it('uses "stranger" as a default when no name provided', function() {
         var output = run(['./lib/greet.js']);
-        assert.equal(output, 'hello stranger\n');
+        assert.equal(output,  ` _________________
+< Hello, stranger >
+ -----------------
+        \\   ^__^
+         \\  (oO)\\_______
+            (__)\\       )\\/\\
+             U  ||----w |
+                ||     ||\n`);
     });
 });
