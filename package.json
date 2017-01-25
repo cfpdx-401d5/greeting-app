@@ -1,0 +1,25 @@
+{
+  "name": "Greeting-App-1",
+  "version": "1.0.0",
+  "description": "greeting-app product",
+  "main": "cli.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "pretest": "npm run lint",
+    "test": "mocha",
+    "test:watch": "npm run test -- -w",
+    "lint": "eslint . --ignore-pattern '/initial-concepts/*'"
+  },
+  "author": "Tom Shultz",
+  "license": "ISC",
+  "devDependencies": {
+    "eslint": "^3.14.0",
+    "mocha": "^3.2.0",
+    "nodemon": "^1.11.0"
+  },
+  "dependencies": {
+    "figlet": "^1.2.0"
+  }
+}
