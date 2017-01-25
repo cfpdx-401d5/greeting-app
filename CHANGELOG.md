@@ -1,7 +1,10 @@
 # CHANGE LOG:
 
-## 
-
+## [1.1.0] - week 2
+### Added
+- Added 'cowsay' feature to enable greeting to be said by a cow.
+- Added capability to check for --plain flag to indicate which text needs to preserve plain text behavior of greeting ... i.e. no cowsay greeting.
+- Added test scripts to check for correct code functionality of greeting for '--plain' flag CLI entry, and for 'cowsay'.
 
 ## [1.0.0] - week 1
 ### Added

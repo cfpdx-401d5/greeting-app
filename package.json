@@ -2,7 +2,7 @@
   "name": "Greeting-App-1",
   "version": "1.0.0",
   "description": "greeting-app product",
-  "main": "cli.js",
+  "main": "run.js",
   "directories": {
     "test": "test"
   },
@@ -20,6 +20,7 @@
     "nodemon": "^1.11.0"
   },
   "dependencies": {
+    "cowsay": "^1.1.9",
     "figlet": "^1.2.0"
   }
 }
