@@ -1,3 +1,7 @@
+1.1.1 - 2017-01-25
+Changed
+Export and require module to create greeting. added cli.js for command line interface.
+
 1.0.1 - 2017-01-25
 Added
 Added Cowsay script with command line option (--plain) to suppress Cowsay.
