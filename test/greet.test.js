@@ -3,7 +3,7 @@ var run = require('./run.js');
 
 describe('greeting app', function() {
     it('greets by name', function() {
-        var output = run(['./lib/greet.js', 'marty']);
+        var output = run(['./lib/greet.js', 'marty', '--plain']);
         assert.equal(output, 'hello marty\n');
     });
 
