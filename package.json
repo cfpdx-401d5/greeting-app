@@ -1,13 +1,16 @@
 {
-  "name": "aaron_beerman",
+  "name": "Greeting App",
   "version": "0.0.1",
   "description": "App thats greets users based on times and other factors.",
   "main": "greet.js",
   "directories": {
-    "test": "test"
+    "test": "test",
+    "lib": "lib"
   },
   "scripts": {
-    "test": "mocha"
+    "pretest": "npm run lint",
+    "test:watch": "npm run test -- -w",
+    "lint": "eslint . --ignore-pattern '/initial-concepts/*'"
   },
   "repository": {
     "type": "git",
@@ -18,6 +21,9 @@
   ],
   "author": "Aaron Beerman",
   "license": "MIT",
+  "devDependencies": {
+    "eslint": "^3.14.0",
+    "mocha": "^3.2.0",
   "bugs": {
     "url": "https://github.com/lagoatus/greeting-app/issues"
   },
