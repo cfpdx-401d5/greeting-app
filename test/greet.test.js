@@ -17,13 +17,13 @@ describe('greeting app', function() {
 //         );
 //     });
 
-    // it('uses "stranger" as a default when no name provided', function() {
-    //     var output = run(['./lib/greet.js']);
-    //     assert.equal(output, 'hello stranger\n');
-    // });
+    it('uses "stranger" as a default when no name provided', function() {
+        var output = run(['./cli.js', '', '--plain']);
+        assert.equal(output, 'hello stranger\n');
+    });
 
     it('greets with name without cowsay', function() {
-        var output = run(['./lib/greet.js', 'brigitte', '--plain']);
+        var output = run(['./cli.js', 'brigitte', '--plain']);
         assert.equal( output, 'hello brigitte\n');
     });
 });
