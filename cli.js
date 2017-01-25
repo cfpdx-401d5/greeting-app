@@ -1,6 +1,24 @@
 
 const greet = require('./lib/greet.js');
 
-const greeting = greet(process.argv[2], process.argv[3]);
+var input = process.argv.splice(2);
 
-process.stdout.write(greeting + '\n');
+var name = '';
+var greeting = '';
+var plain = '';
+
+for (var i = 0; i < input.length; i++) {
+    if (input[i].includes('--name:')) {
+        name = input[i].split(':')[1];
+    }
+    if (input[i].includes('--greeting:')) {
+        greeting = input[i].split(':')[1];
+    }
+    if (input[i].includes('--plain')) {
+        plain = '--plain';
+    }
+}
+
+const display = greet(name, greeting, plain);
+
+process.stdout.write(display + '\n');
