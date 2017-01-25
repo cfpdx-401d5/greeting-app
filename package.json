@@ -1,0 +1,25 @@
+{
+  "name": "aaron_beerman",
+  "version": "0.0.1",
+  "description": "App thats greets users based on times and other factors.",
+  "main": "greet.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lagoatus/greeting-app.git"
+  },
+  "keywords": [
+    "Greetings"
+  ],
+  "author": "Aaron Beerman",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/lagoatus/greeting-app/issues"
+  },
+  "homepage": "https://github.com/lagoatus/greeting-app#readme"
+}
