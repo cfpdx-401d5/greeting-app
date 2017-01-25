@@ -1,5 +1,5 @@
 {
-  "name": "Greeting App",
+  "name": "greetApp",
   "version": "0.0.1",
   "description": "App thats greets users based on times and other factors.",
   "main": "greet.js",
@@ -11,7 +11,7 @@
     "pretest": "npm run lint",
     "test:watch": "npm run test -- -w",
     "lint": "eslint . --ignore-pattern '/initial-concepts/*'"
-    
+
   },
   "repository": {
     "type": "git",
