@@ -1,4 +1,4 @@
-#GREETING APP [1.1.0]
+#GREETING APP [2.0.0]
 - This app is intended to take input from a user and generate a personalized greeting per that input.
 
 ## USE OF THE APP
@@ -8,6 +8,7 @@
 
 ## DEVELOPER BUILD INSTRUCTIONS
 - The developer should keep the app simple and easy to use.
+- The developer should add a CLI file to organize interaction with the command line. 
 
 ## CODING STANDARDS
 - 4 spaces for indentations
