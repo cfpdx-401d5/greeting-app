@@ -11,7 +11,7 @@
         "node": true,
         "mocha": true,
         "es6": true,
-        "mongo": true,
+        "mongo": true
     },
     "extends": "eslint:recommended",
     "rules": {
