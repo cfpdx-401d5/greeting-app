@@ -1,5 +1,6 @@
 var assert = require('assert');
 var run = require('./run.js');
+var cowsay = require("cowsay");
 
 describe('greeting app', function() {
     it('greets by name', function() {
