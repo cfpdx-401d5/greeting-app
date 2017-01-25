@@ -1,6 +1,13 @@
 #Change Log
 Documenting all notable changes.
 
+## [3.0.0] - 2017-01-25
+##Added
+- functionality to take greeting as input (--greeting:)
+
+##Changed
+- name input format to --name:
+
 ## [2.0.0] - 2017-01-25
 ###Added
 - cli.js
