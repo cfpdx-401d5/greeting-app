@@ -8,7 +8,12 @@ describe('greeting app', function() {
     });
 
     it('uses "stranger" as a default when no name provided', function() {
-        var output = run(['./lib/greet.js']);
+        var output = run(['./lib/greet.js', '','--plain']);
         assert.equal(output, 'hello stranger\n');
+    });
+
+    it('greets without cowsay when a "--plain" flag is added', function(){
+        var output = run(['./lib/greet.js', 'marty', '--plain']);
+        assert.equal(output, 'hello marty\n');
     });
 });
