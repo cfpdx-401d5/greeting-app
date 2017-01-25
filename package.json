@@ -11,6 +11,7 @@
     "pretest": "npm run lint",
     "test:watch": "npm run test -- -w",
     "lint": "eslint . --ignore-pattern '/initial-concepts/*'"
+    
   },
   "repository": {
     "type": "git",
