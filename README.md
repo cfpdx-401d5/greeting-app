@@ -15,3 +15,11 @@
 ### Additions:
 - Per request from Product Management, added 'cowsay' feature to enable greeting to be said by a cow.
 - Retains ability to check for --plain flag which will preserve plain text behavior of greeting.
+
+## [2.0.0] - week 3
+### Refactoring: 
+- Per request from Head of Engineering, refactored greet.js to enable greeting as an exportable function.
+- Refactored greet.test.js to reflect change of greeting code into an exportable function.
+- Also, retained original test script within greet.test.js to be used as golden path system integration test.
+- Debugging of refactored code in progress.
+

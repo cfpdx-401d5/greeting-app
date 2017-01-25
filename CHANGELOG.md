@@ -1,5 +1,11 @@
 # CHANGE LOG:
 
+## [2.0.0] - week 3
+### Refactored
+- Refactored greet.js to enable greeting as an exportable function.
+- Refactored greet.test.js to reflect change of greeting code into an exportable function.
+- Retained original test script within greet.test.js as golden path system integration test.
+
 ## [1.1.0] - week 2
 ### Added
 - Added 'cowsay' feature to enable greeting to be said by a cow.
