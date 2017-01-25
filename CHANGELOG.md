@@ -1,3 +1,7 @@
+1.0.1 - 2017-01-25
+Added
+Added Cowsay script with command line option (--plain) to suppress Cowsay.
+
 1.0.0 - 2017-01-24
 
 Added
