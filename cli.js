@@ -3,8 +3,8 @@ const greet = require('./lib/greet.js');
 
 var input = process.argv.splice(2);
 
-var name = '';
-var greeting = '';
+var name = 'stranger';
+var greeting = 'hello';
 var plain = '';
 
 for (var i = 0; i < input.length; i++) {
