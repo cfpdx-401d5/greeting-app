@@ -23,6 +23,7 @@
   },
   "homepage": "https://github.com/mericks/greeting-app#readme",
   "devDependencies": {
-    "eslint": "^3.14.1"
+    "eslint": "^3.14.1",
+    "mocha": "^3.2.0"
   }
 }
