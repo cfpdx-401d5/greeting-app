@@ -1,6 +1,6 @@
 {
   "name": "greeting app",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "description": "inherited app that greets users",
   "main": "index.js",
   "directories": {
@@ -9,7 +9,7 @@
   "scripts": {
     "pretest": "npm run lint",
     "test": "mocha",
-    "test:watch": "npm run test -- -w",
+    "test:watch": "mocha -w",
     "lint": "eslint"
   },
   "repository": {

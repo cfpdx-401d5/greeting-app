@@ -4,17 +4,20 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](http://keepachangelog.com/) 
 and this project adheres to [Semantic Versioning](http://semver.org/).
 
-## [Unreleased]
+
+## [2.0.0] - 2017-01-26 (Week 2)
+### Added
+- cowsay (https://www.npmjs.com/package/cowsay) to dependencies
+- coway used to greet customers; plain text greeting preserved with flag --plain
+### Changed
+
 
 ## [1.0.0] - 2017-01-26 (Week 1)
 ### Added
 - package.json scripts for testing (mocha), linting (eslint - to run before test), and test-watch
+- mocha and eslint to devDependencies
 - README.md
 - CHANGELOG.md
-
-## [1.0.0] - 2017-01-26 (Week 2)
-### Added
-### Changed
 
 
 ==
