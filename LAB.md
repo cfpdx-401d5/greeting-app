@@ -1,10 +1,19 @@
 <img src="https://cloud.githubusercontent.com/assets/478864/22186847/68223ce6-e0b1-11e6-8a62-0e3edc96725e.png" width=30> Greeting App
 ===
 
-You've just inherited the fledgling `greeting-app` product. 
-Below are a series of changes requests you receive over time.
-You need to do the steps sequentially, and update the `CHANGELOG.md`
-appropriately.
+You've just inherited the fledgling `greeting-app` product. Below are a series of changes requests you receive over time.
+
+You need to do the steps ("weeks") sequentially.
+
+Before each step:
+* Create a branch for the work
+
+After each step:
+* Make sure to update the `README.md` and `CHANGELOG.md` appropriately.
+* Run `npm test` and verify that your tests pass.
+* Push your working branch to your fork and do a PR from working branch to `master`
+* When TravisCI passes, merge the PR.
+* (merge master back locally so you can start next step)
 
 ### week 1
 
