@@ -1,29 +1,37 @@
 var assert = require('assert');
 var run = require('./run.js');
-// const cli = require('../lib/cli');
 const cowsay = require('cowsay')
 
 describe('cli functionality - e2e', function() {
 
-    it('greets by name --plain', function() {
-        var output = run(['./lib/cli', 'marty', '--plain']);
+    it('custom greeting custom name --plain', function() {
+        var output = run(['./lib/cli', '--name:marty', '--greeting:charmed', '--plain']);
+        assert.equal(output, 'charmed marty\n');
+    });
+
+    it('custom greeting custom name', function() {
+        var output = run(['./lib/cli', '--name:marty', '--greeting:charmed']);
+        assert.equal(output, cowsay.say({text: 'charmed marty'}) + '\n');
+    });
+
+    it('custom greeting default name --plain', function() {
+        var output = run(['./lib/cli', '--greeting:charmed', '--plain']);
+        assert.equal(output, 'charmed partner\n');
+    });
+
+    it('custom greeting default name', function() {
+        var output = run(['./lib/cli', '--greeting:charmed']);
+        assert.equal(output, cowsay.say({text: 'charmed partner'}) + '\n');
+    });
+
+    it('default greeting custom name --plain', function() {
+        var output = run(['./lib/cli', '--name:marty', '--plain']);
         assert.equal(output, 'hello marty\n');
     });
 
-    it('uses "stranger" as a default when no name provided --plain', function() {
-        var output = run(['./lib/cli.js', '--plain']);
-        assert.equal(output, 'hello stranger\n');
+    it('default greeting custom name', function() {
+        var output = run(['./lib/cli', '--name:marty']);
+        assert.equal(output, cowsay.say({text: 'hello marty'}) + '\n');
     });
-
-    it('greets users by name with cowsay', function() {
-        var output = run(['./lib/cli.js', 'marty']);
-        assert.equal(output, cowsay.say({text: 'hello marty'}) + '\n')
-    }); 
-
-        it('greets users as "stranger" with cowsay when no inputs provided', function() {
-        var output = run(['./lib/cli.js']);
-        assert.equal(output, cowsay.say({text: 'hello stranger'}) + '\n')
-    }); 
-
 
 })
