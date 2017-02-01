@@ -4,16 +4,25 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](http://keepachangelog.com/) 
 and this project adheres to [Semantic Versioning](http://semver.org/).
 
+
+## [3.1.0] - 2017-01-31 (Week 4)
+### Added
+- ability to include custom greeting
+
+
 ## [2.1.0] - 2017-01-31 (Week 3)
 ### Added
-- changed functionality of greet app to separate cli and greet function
-- added unit test for greet functionality minus cli inputs
+- unit test for greet functionality minus cli inputs
+
+### Changed
+- functionality of greet app to separate cli and greet function
 
 
 ## [2.0.0] - 2017-01-26 (Week 2)
 ### Added
 - cowsay (https://www.npmjs.com/package/cowsay) to dependencies
 - cowsay used to greet customers; plain text greeting preserved with flag --plain
+
 
 ## [1.0.0] - 2017-01-26 (Week 1)
 ### Added
