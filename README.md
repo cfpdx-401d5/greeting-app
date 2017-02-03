@@ -3,11 +3,37 @@
 
 ## USE OF THE APP
 - This is a command line application that generates a greeting.
+
 - The default greeting is "hello stanger" said by a cow. In order to get this result, the user must type "node cli.js" in the command line.
+    > node cli.js
+
 - In order to change the name in the greeting from "stranger" to something the user inputs, the user must type "--name:INPUT" after "node cli.js" in the command line, where input is the user's name of choice.
+    > node cli.js --name:brigitte
+ ________________
+< hello brigitte >
+ ----------------
+        \   ^__^
+         \  (oo)\_______
+            (__)\       )\/\
+                ||----w |
+                ||     ||
+
 - In order to change the greeting from "hello" to something the user inputs, the user must type "--greeting:INPUT" after "node cli.js" in the command line, where input is the user's greeting of choice.
+    > node cli.js --name:brigitte --greetings: hola
+ ________________
+< hola brigitte >
+ ----------------
+        \   ^__^
+         \  (oo)\_______
+            (__)\       )\/\
+                ||----w |
+                ||     ||
+
 - If the user prefers a greeting that is not said by a cow, the user can include "--plain"after "node cli.js" in the command line.
-- The user can include all or none of inputs in any order and the app will still run (ex. "node cli.js --name:brigitte --greeting:aloha --plain").
+    > node cli.js --name:brigitte --greetings: hola --plain
+hola brigitte
+
+- The user can include all or none of inputs in any order and the app will still run (ex. "node cli.js --name:brigitte --greeting:hola --plain").
 
 
 ## DEVELOPER BUILD INSTRUCTIONS
