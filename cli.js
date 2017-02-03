@@ -5,7 +5,7 @@ var input = process.argv.splice(2);
 
 var name = 'stranger';
 var greeting = 'hello';
-var plain = '';
+var plain;
 
 for (var i = 0; i < input.length; i++) {
     if (input[i].includes('--name:')) {
@@ -15,7 +15,7 @@ for (var i = 0; i < input.length; i++) {
         greeting = input[i].split(':')[1];
     }
     if (input[i].includes('--plain')) {
-        plain = '--plain';
+        plain = true;
     }
 }
 

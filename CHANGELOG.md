@@ -1,7 +1,7 @@
 #Change Log
 Documenting all notable changes.
 
-## [3.0.0] - 2017-01-25
+## [2.1.0] - 2017-01-25
 ##Added
 - functionality to take greeting as input (--greeting:)
 
