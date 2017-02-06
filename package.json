@@ -1,0 +1,32 @@
+{
+  "name": "greeting-app",
+  "version": "1.0.0",
+  "description": "greets a user",
+  "main": "cli.js",
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {
+    "cowsay": "^1.1.9"
+  },
+  "devDependencies": {
+    "eslint": "^3.14.0",
+    "mocha": "^3.2.0"
+  },
+  "scripts": {
+    "pretest": "eslint .",
+    "test": "mocha",
+    "test:watch": "mocha -w",
+    "lint": "eslint ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cmd-kvn/greeting-app.git"
+  },
+  "author": "Kevin Wong",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cmd-kvn/greeting-app/issues"
+  },
+  "homepage": "https://github.com/cmd-kvn/greeting-app#readme"
+}
