@@ -1,0 +1,36 @@
+{
+  "name": "greetapp",
+  "version": "0.0.1",
+  "description": "App thats greets users.",
+  "main": "greet.js",
+  "directories": {
+    "test": "test",
+    "lib": "lib"
+  },
+  "scripts": {
+    "pretest": "eslint",
+    "test": "mocha",
+    "test:watch": "mocha -w",
+    "lint": "eslint . --ignore-pattern '/initial-concepts/*'"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lagoatus/greeting-app.git"
+  },
+  "keywords": [
+    "Greetings"
+  ],
+  "author": "Aaron Beerman",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/lagoatus/greeting-app/issues"
+  },
+  "homepage": "https://github.com/lagoatus/greeting-app#readme",
+  "devDependencies": {
+    "eslint": "^3.14.0",
+    "mocha": "^3.2.0"
+  },
+  "dependencies": {
+    "cowsay": "^1.1.9"
+  }
+}
